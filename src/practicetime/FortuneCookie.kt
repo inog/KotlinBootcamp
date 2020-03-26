@@ -19,6 +19,5 @@ fun getFortuneCookie(): String {
     )
     print("Enter your birthday:")
     val birthday : Int = readLine()?.toIntOrNull()?: 1
-    val index = birthday.rem(fortunes.size)
-    return fortunes.get(index)
+    return fortunes[birthday.rem(fortunes.size)]
 }
