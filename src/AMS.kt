@@ -5,8 +5,6 @@ fun main() {
     feedTheFish()
 }
 
-
-
 fun feedTheFish() {
     val day = randomDay()
     val food = "pellets"
