@@ -1,3 +1,5 @@
+package practicetime
+
 import java.time.LocalTime
 import java.util.*
 
