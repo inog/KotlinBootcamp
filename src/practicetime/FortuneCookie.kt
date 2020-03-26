@@ -3,7 +3,9 @@ package practicetime
 
 fun main() {
     for (i in 0..10){
-    println("Your fortune is:  ${getFortuneCookie()}")
+        val fortune = getFortuneCookie()
+        println("Your fortune is:  $fortune")
+        if(fortune.contains("Take it easy")) break
     }
 }
 
